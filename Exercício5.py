@@ -2,7 +2,7 @@
 
 # Peça ao usuário os comprimentos dos três lados de um triângulo 
 
-comprimentos = input("INFORME O COMPRIMENTO DOS 3 LADOS DO TRIÂNGULO. OBS:PODE CONTER VIRGULA. ")
+comprimentos = input("INFORME O COMPRIMENTO DOS 3 LADOS DO TRIÂNGULO. OBS:PODE CONTER VIRGULA: ")
 virgula = comprimentos.replace(",",".").split()
 n1, n2, n3 = map(float, virgula)
 
