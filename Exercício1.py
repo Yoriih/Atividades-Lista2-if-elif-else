@@ -5,8 +5,11 @@
 numero = int(input("DIGITE UM NÚMERO: "))
 
 # Determine se é par ou ímpar.
+# != diferente
+# and "e"
+
  
-if numero % 2 == 0 :
+if numero % 2 == 0 and numero != 0 :
     print("SEU NÚMERO É PAR")
 
 elif numero % 2 == 1 :
