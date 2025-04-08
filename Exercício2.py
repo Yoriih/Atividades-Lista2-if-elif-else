@@ -11,7 +11,7 @@ if (numero1 > numero2):
     print("O PRIMEIRO NÚMERO E MAIOR")
 
 elif (numero2 > numero1):
-    print("O SEGUNDO VALOR E MAIOR")
+    print("O SEGUNDO NÚMERO E MAIOR")
     
 else:
     print ("OS NÚMEROS SÃO IGUAIS")
