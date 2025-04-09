@@ -7,7 +7,7 @@ vogais = "aeiouAEIOU"
  
 # Determine se é uma vogal ou uma consoante.
 
-if letra == vogais:
+if letra in vogais:
     print("É uma vogal!")
 else:
     print("É uma consoante!")
